@@ -1,4 +1,4 @@
-# Cara Kerja Version Control (Tim 2 Orang)
+# Cara Kerja Version Control (Tim 3 Orang)
 
 ## Struktur branch
 
@@ -22,7 +22,7 @@
    ```
    git push -u origin feature/nama-fitur
    ```
-4. Karena tim hanya 2 orang, cukup saling review PR satu sama lain sebelum merge (tidak perlu approval berlapis) — tapi tetap wajib direview, jangan self-merge tanpa dilihat partner.
+4. Dengan tim 3 orang, minimal **1 review dari salah satu anggota lain** (bukan pembuat PR) sebelum merge — tidak perlu approval dari semua orang, cukup satu, supaya tidak jadi bottleneck. Jangan self-merge tanpa direview.
 5. Setelah merge, hapus branch fitur yang sudah selesai.
 
 ## Commit message
